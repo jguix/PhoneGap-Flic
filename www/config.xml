@@ -28,7 +28,7 @@
     <preference name="android-build-tool"       value="gradle" />
 
     <!-- Third party plugins -->
-    <plugin name="cordova-plugin-flic" spec="~0.5" />
+    <plugin name="cordova-plugin-flic" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
