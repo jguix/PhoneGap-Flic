@@ -24,6 +24,7 @@
     <!-- minSDKVersion required by Flic -->
     <preference name="android-minSdkVersion"    value="19" />
     <preference name="android-targetSdkVersion" value="22" />
+    <preference name="android-build-tool" value="gradle" />
 
     <!-- Third party plugins -->
     <plugin name="cordova-plugin-flic" spec="~0.5" />
