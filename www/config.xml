@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.jguix.phonegap.flic"
+    versionCode = "10" 
+    version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap Build Flic</name>
+
+    <description>
+        A sample PhoneGap Build app using the Flic plugin.
+    </description>
+
+    <author href="https://github.com/jguix" email="juangui@gmail.com">
+        Juan G. Jordan
+    </author>
+
+    <!-- No special permissions, just the default INTERNET permission -->
+    <preference name="permissions"              value="none" />
+    <!-- Install location -->
+    <preference name="android-installLocation"  value="auto" />
+    <!-- minSDKVersion required by Flic -->
+    <preference name="android-minSdkVersion"    value="19" />
+    <preference name="android-targetSdkVersion" value="22" />
+
+    <!-- Third party plugins -->
+    <plugin name="cordova-plugin-flic" spec="~0.5" />
+
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+
+    <!-- Build for Android -->
+    <platform name="android" />
+    
+</widget>
