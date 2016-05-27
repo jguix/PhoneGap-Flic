@@ -17,7 +17,7 @@
         Juan G. Jordan
     </author>
 
-    <preference name="phonegap-version"         value="cli-6.1.0" />
+    <preference name="phonegap-version"         value="cli-5.1.1" />
     <!-- No special permissions, just the default INTERNET permission -->
     <preference name="permissions"              value="none" />
     <!-- Install location -->
