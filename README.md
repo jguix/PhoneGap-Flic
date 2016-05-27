@@ -5,5 +5,5 @@ A sample PhoneGap Build app using the Flic plugin.
 
 Import code from this git repository to your PhoneGap Build project.
 
-![App screenshot](/sample/app_screenshot.jpg)
+![App screenshot](/www/app_screenshot.jpg)
 
